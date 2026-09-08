@@ -1,0 +1,6 @@
+{
+  "ultrabook pro": {"price_usd": 1499, "category": "laptop", "specs": "14-inch, 16GB RAM, 512GB SSD"},
+  "budgetbook lite": {"price_usd": 549, "category": "laptop", "specs": "14-inch, 8GB RAM, 256GB SSD"},
+  "workstation max": {"price_usd": 2799, "category": "laptop", "specs": "16-inch, 32GB RAM, 1TB SSD"},
+  "aircase 13": {"price_usd": 999, "category": "laptop", "specs": "13-inch, 8GB RAM, 256GB SSD"}
+}
