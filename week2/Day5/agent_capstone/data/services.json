@@ -1,0 +1,54 @@
+[
+  {
+    "name": "Starter Website",
+    "keywords": [
+      "website",
+      "landing",
+      "portfolio"
+    ],
+    "price_from": 300,
+    "delivery_days": 7,
+    "description": "Responsive business or portfolio website."
+  },
+  {
+    "name": "Business Web App",
+    "keywords": [
+      "web app",
+      "dashboard",
+      "management",
+      "booking",
+      "order",
+      "ecommerce",
+      "inventory"
+    ],
+    "price_from": 900,
+    "delivery_days": 21,
+    "description": "Database-backed web application with authentication and dashboard."
+  },
+  {
+    "name": "UI/UX Design",
+    "keywords": [
+      "figma",
+      "ui",
+      "ux",
+      "design",
+      "prototype"
+    ],
+    "price_from": 250,
+    "delivery_days": 10,
+    "description": "Figma-based interface and clickable prototype."
+  },
+  {
+    "name": "Maintenance",
+    "keywords": [
+      "fix",
+      "bug",
+      "maintenance",
+      "update",
+      "error"
+    ],
+    "price_from": 150,
+    "delivery_days": 5,
+    "description": "Bug fixing and ongoing website maintenance."
+  }
+]
