@@ -1,0 +1,17 @@
+feature_name,description,computation_window,source_columns
+home_team_score_last5_avg,"Home team avg score, last 5 games prior to this match",shift(1).rolling(5),team_matches_home_away_raw.team_score
+home_team_margin_last5_avg,"Home team avg winning margin, last 5 games prior",shift(1).rolling(5),team_score - opponent_score
+home_win_rate_last5_avg,"Home team win rate, last 5 games prior",shift(1).rolling(5),win indicator
+home_win_streak_entering,Home team current win(+)/loss(-) streak entering this match,"sequential streak counter, strictly prior games",win indicator
+home_days_rest,Days since the home team's previous match,date diff to previous match,match_date
+home_ladder_pos_entering,"Home team ladder rank within season, entering this round","cumulative points/percentage, prior rounds only","win/draw, team_score, opponent_score"
+home_cum_percentage_entering,"Home team for/against percentage within season, entering this round","cumulative points-for / points-against x100, prior rounds only","team_score, opponent_score"
+h2h_prior_meetings,Number of prior meetings between these two teams (any venue),running count from first match in dataset,match history
+h2h_home_team_winrate_prior,Historical win rate of the CURRENT home team in past meetings vs this opponent,"running win rate, prior meetings only",match history
+diff_team_score_last5_avg,home_team_score_last5_avg minus away_team_score_last5_avg,derived,see above
+diff_win_rate_last5_avg,home_win_rate_last5_avg minus away_win_rate_last5_avg,derived,see above
+diff_ladder_pos_entering,home_ladder_pos_entering minus away_ladder_pos_entering (negative = home ranked better),derived,see above
+diff_days_rest,home_days_rest minus away_days_rest,derived,see above
+disposals_last5_avg (player),"Player avg disposals, last 5 games prior to this game",shift(1).rolling(5),afl_players_round_by_round_stats_raw.disposals
+goals_last5_avg (player),"Player avg goals, last 5 games prior to this game",shift(1).rolling(5),afl_players_round_by_round_stats_raw.goals
+fantasy_points_last5_avg (player),"Player avg fantasy points, last 5 games prior to this game",shift(1).rolling(5),afl_players_round_by_round_stats_raw.fantasy_points
