@@ -1,0 +1,11 @@
+{
+  "benchmark": "Ladder-position naive",
+  "evaluation_season": 2025,
+  "holdout": "Train on matches before 2025; evaluate on 2025 recorded matches",
+  "model_accuracy_pct": 66.5,
+  "ladder_naive_accuracy_pct": 65.6,
+  "home_team_always_accuracy_pct": 55.8,
+  "games_evaluated": 215,
+  "method": "Ladder position is derived chronologically from the same match results using 4 points for a win, 2 for a draw, 0 for a loss, with score-for/score-against percentage as tie-breaker. Model features are leakage-safe rolling features shifted before each match.",
+  "interpretation": "On the 2025 held-out season, the model achieved 66.5% accuracy versus 65.6% for the ladder-position naive benchmark and 55.8% for home-team-always. The model therefore provides only a small lift over the ladder baseline in this holdout and should be presented as probabilistic evidence, not certainty."
+}

@@ -1,0 +1,5 @@
+category,n_cases,n_passed,pass_rate_pct
+Factual Q&A,8,8,100.0
+Multi-turn coherence,4,4,100.0
+Prediction sanity,7,7,100.0
+Scope guardrails,10,10,100.0
