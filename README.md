@@ -103,13 +103,21 @@ Python • Pandas • Scikit-learn • LLMs • LangChain • LangGraph • Fast
 📈 Learning Progression
 
 Machine Learning
+
       ↓
+      
 LLMs & AI Agents
+
       ↓
+      
 Agent Engineering & APIs
+
       ↓
+      
 Voice AI & RAG
+
       ↓
+      
 Production-Oriented AI Systems
 
 🎯 Internship Goal
